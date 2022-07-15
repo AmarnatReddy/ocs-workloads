@@ -1,0 +1,5 @@
+resources:
+- busybox-dc-105.yaml
+- busybox-pvc-105.yaml
+- busybox-dc-106.yaml
+- busybox-pvc-106.yaml

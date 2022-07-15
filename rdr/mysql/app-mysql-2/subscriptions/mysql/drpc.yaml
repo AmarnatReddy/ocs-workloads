@@ -6,9 +6,9 @@ metadata:
   labels:
     app: mysql-sample
 spec:
-  preferredCluster: "PLACEHOLDER-C1-ClusterName"
+  preferredCluster: ocp-rr-rc-1 
   drPolicyRef:
-    name: PLACEHOLDER-DRPOLICY-NAME
+    name: drpolicy-7m
   placementRef:
     kind: PlacementRule
     name: mysql-placement
